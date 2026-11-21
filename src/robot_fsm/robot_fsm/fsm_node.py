@@ -8,7 +8,8 @@ from sensor_msgs.msg import Image, LaserScan
 from cv_bridge import CvBridge
 import numpy as np
 import math
-
+#            data.emergency_release = False
+#            data.emergency_stop = False
 class LidarOffice(Node):
     def __init__(self):
         super().__init__('lidar_office')
